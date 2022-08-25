@@ -45,7 +45,7 @@ p {
 /* *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  outline: 1px solid red;
 } */
 
 p:last-child {
@@ -266,9 +266,7 @@ address {
 .background-a {
   background-color: var(--color-backround-a);
 }
-.background-b {
-  background-color: #e5e5e5;
-}
+
 .backgraund-c {
   background-color: var(--color-mix);
 }
